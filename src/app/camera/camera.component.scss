@@ -1,0 +1,12 @@
+p {
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    min-width: 100%;
+
+    ion-button {
+        width: 50%;
+    }
+}

@@ -2,5 +2,17 @@
 	"appId": "io.ionic.starter",
 	"appName": "projeto",
 	"webDir": "www",
-	"bundledWebRuntime": false
+	"bundledWebRuntime": false,
+  	"npmClient": "npm",
+	"bundledWebRuntime": false,
+	"plugins": {
+	    "SplashScreen": {
+	      "launchShowDuration": 3000,
+	      "launchAutoHide": true,
+	      "backgroundColor": "#008EC1",
+	      "splashFullScreen": true,
+	      "splashImmersive": true
+	    }
+	},	
+	"cordova": {}
 }

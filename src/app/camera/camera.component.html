@@ -1,0 +1,15 @@
+<ion-img [src]="imgData">
+</ion-img>
+
+<span>
+    {{result}}
+</span>
+
+
+<div class="footer">
+    <ion-progress-bar [value]="progress"></ion-progress-bar>
+    <div class="buttons">
+        <ion-button (click)="openCamera()">Camera</ion-button>
+        <ion-button (click)="recognize()">Recognize</ion-button>
+    </div>
+</div>

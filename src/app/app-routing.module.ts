@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { CameraComponent } from './camera/camera.component';
 
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
+    loadChildren: () => import('./camera/camera.module').then(m => m.CameraModule),
+    component: CameraComponent
   }
 ];
 @NgModule({
